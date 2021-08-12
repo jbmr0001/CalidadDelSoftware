@@ -1,0 +1,11 @@
+<map id="Diccionario.h" name="Diccionario.h">
+<area shape="rect" id="node1" title="Fichero para almacenar la cabecera de la clase Diccionario." alt="" coords="119,5,216,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="168,229,223,256"/>
+<area shape="rect" id="node3" href="$_v_dinamico_8h.html" title="Fichero que almacenará la clase del vector dinámico." alt="" coords="33,229,129,256"/>
+<area shape="rect" id="node6" href="$_palabra_8h.html" title="Fichero para almacenar la cabecera de la Palabra." alt="" coords="91,155,169,181"/>
+<area shape="rect" id="node7" href="$_verbos_conjugados_8h.html" title="Fichero para almacenar la cabecera de la clase VerbosConjugados." alt="" coords="151,80,293,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,304,65,331"/>
+<area shape="rect" id="node5" title=" " alt="" coords="90,304,165,331"/>
+<area shape="rect" id="node8" href="$_a_v_l_8h.html" title="Fichero que almacenará la clase del árbol AVL. Created on 4 de noviembre de 2020, 17:38." alt="" coords="243,155,302,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="247,229,319,256"/>
+</map>

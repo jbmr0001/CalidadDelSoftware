@@ -1,0 +1,6 @@
+<map id="pruebaTiempos" name="pruebaTiempos">
+<area shape="rect" id="node1" title="Función para probar los tiempos de inserción." alt="" coords="5,56,116,83"/>
+<area shape="rect" id="node2" href="$class_lista_enlazada.html#a709d4fa10dc22cecb238c5b14ba49202" title="Función para insertar en el final de la Lista Enlazada." alt="" coords="164,5,343,32"/>
+<area shape="rect" id="node3" href="$class_v_dinamico.html#a58b18e92c74d1b48b1ff8b3c6caf2fb4" title="Método para insertar elementos en el vector dinámico." alt="" coords="185,56,321,83"/>
+<area shape="rect" id="node4" href="$class_a_v_l.html#aaa17cef0b40f683b5caaaf7e95a118d7" title="Método público para insertar un dato en el Árbol." alt="" coords="204,107,303,133"/>
+</map>

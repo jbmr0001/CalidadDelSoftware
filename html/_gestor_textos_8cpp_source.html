@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Práctica 4: Fichero Fuente GestorTextos.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Práctica 4
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_gestor_textos_8cpp_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">GestorTextos.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_gestor_textos_8cpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * To change this license header, choose License Headers in Project Properties.</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * To change this template file, choose Tools | Templates</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * and open the template in the editor.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_gestor_textos_8h.html">GestorTextos.h</a>&quot;</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_palabra_8h.html">Palabra.h</a>&quot;</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_diccionario_8h.html">Diccionario.h</a>&quot;</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_lista_enlazada_8h.html">ListaEnlazada.h</a>&quot;</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;bits/stdc++.h&gt;</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;locale&gt;</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_documento_8h.html">Documento.h</a>&quot;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_v_dinamico_8h.html">VDinamico.h</a>&quot;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_gestor_textos.html#a7ed93559f4c269dfd0fbb2ccb059dec7">   33</a></span>&#160;<a class="code" href="class_gestor_textos.html#a7ed93559f4c269dfd0fbb2ccb059dec7">GestorTextos::GestorTextos</a>() :</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        _documentos() {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_gestor_textos.html#a414f3a84a7f229f49afe83dd7fb26cf0">   42</a></span>&#160;<a class="code" href="class_gestor_textos.html#a7ed93559f4c269dfd0fbb2ccb059dec7">GestorTextos::GestorTextos</a>(<span class="keyword">const</span> <a class="code" href="class_gestor_textos.html">GestorTextos</a>&amp; orig) :</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        _documentos(orig._documentos) {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_gestor_textos.html#a5ce8bbbcd3828b017cf2c82b38ac2d67">   49</a></span>&#160;<a class="code" href="class_gestor_textos.html#a5ce8bbbcd3828b017cf2c82b38ac2d67">GestorTextos::~GestorTextos</a>() {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_gestor_textos.html#a70f1fca48c66b686172fdf9577bbcb7b">   59</a></span>&#160;<a class="code" href="class_diccionario.html">Diccionario</a> <a class="code" href="class_gestor_textos.html#a70f1fca48c66b686172fdf9577bbcb7b">GestorTextos::getDiccionario</a>()<span class="keyword"> const </span>{</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_gestor_textos.html#aaea086642de5157a67706ba68ba93ed3">_diccionario</a>;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="class_gestor_textos.html#ab4dec0e5e337ed91fcef6ab49b12925a">   68</a></span>&#160;<a class="code" href="class_v_dinamico.html">VDinamico&lt;Documento&gt;</a> <a class="code" href="class_gestor_textos.html#ab4dec0e5e337ed91fcef6ab49b12925a">GestorTextos::getDocumentos</a>() {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_gestor_textos.html#ac72b6c5c148bcb9f2c1304fe5504545b">_documentos</a>;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="class_gestor_textos.html#a40aecde4a3b251853d278b67301fd363">   79</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_gestor_textos.html#a40aecde4a3b251853d278b67301fd363">GestorTextos::addDocumento</a>(std::string nombreFich) {</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="class_documento.html">Documento</a> doc(nombreFich);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="class_gestor_textos.html#ac72b6c5c148bcb9f2c1304fe5504545b">_documentos</a>.<a class="code" href="class_v_dinamico.html#a58b18e92c74d1b48b1ff8b3c6caf2fb4">insertar</a>(doc);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div><div class="ttc" id="class_gestor_textos_html_a7ed93559f4c269dfd0fbb2ccb059dec7"><div class="ttname"><a href="class_gestor_textos.html#a7ed93559f4c269dfd0fbb2ccb059dec7">GestorTextos::GestorTextos</a></div><div class="ttdeci">GestorTextos()</div><div class="ttdoc">Constructor por defecto de la clase GestorTextos.</div><div class="ttdef"><b>Definition:</b> <a href="_gestor_textos_8cpp_source.html#l00033">GestorTextos.cpp:33</a></div></div>
+<div class="ttc" id="class_gestor_textos_html_a70f1fca48c66b686172fdf9577bbcb7b"><div class="ttname"><a href="class_gestor_textos.html#a70f1fca48c66b686172fdf9577bbcb7b">GestorTextos::getDiccionario</a></div><div class="ttdeci">Diccionario getDiccionario() const</div><div class="ttdoc">Método para obtener el diccionario que se utiliza en el Gestor de Documentos.</div><div class="ttdef"><b>Definition:</b> <a href="_gestor_textos_8cpp_source.html#l00059">GestorTextos.cpp:59</a></div></div>
+<div class="ttc" id="class_documento_html"><div class="ttname"><a href="class_documento.html">Documento</a></div><div class="ttdoc">Clase que representa un documento a gestionar.</div><div class="ttdef"><b>Definition:</b> <a href="_documento_8h_source.html#l00026">Documento.h:26</a></div></div>
+<div class="ttc" id="_lista_enlazada_8h_html"><div class="ttname"><a href="_lista_enlazada_8h.html">ListaEnlazada.h</a></div><div class="ttdoc">Fichero para almacenar la Lista enlazada.</div></div>
+<div class="ttc" id="_documento_8h_html"><div class="ttname"><a href="_documento_8h.html">Documento.h</a></div><div class="ttdoc">Fichero para almacenar la cabecera de la clase Documento.</div></div>
+<div class="ttc" id="class_gestor_textos_html_ac72b6c5c148bcb9f2c1304fe5504545b"><div class="ttname"><a href="class_gestor_textos.html#ac72b6c5c148bcb9f2c1304fe5504545b">GestorTextos::_documentos</a></div><div class="ttdeci">VDinamico&lt; Documento &gt; _documentos</div><div class="ttdoc">Documentos que hay que gestionar.</div><div class="ttdef"><b>Definition:</b> <a href="_gestor_textos_8h_source.html#l00039">GestorTextos.h:39</a></div></div>
+<div class="ttc" id="_diccionario_8h_html"><div class="ttname"><a href="_diccionario_8h.html">Diccionario.h</a></div><div class="ttdoc">Fichero para almacenar la cabecera de la clase Diccionario.</div></div>
+<div class="ttc" id="class_diccionario_html"><div class="ttname"><a href="class_diccionario.html">Diccionario</a></div><div class="ttdoc">Clase que representa un diccionario.</div><div class="ttdef"><b>Definition:</b> <a href="_diccionario_8h_source.html#l00025">Diccionario.h:25</a></div></div>
+<div class="ttc" id="class_gestor_textos_html_a40aecde4a3b251853d278b67301fd363"><div class="ttname"><a href="class_gestor_textos.html#a40aecde4a3b251853d278b67301fd363">GestorTextos::addDocumento</a></div><div class="ttdeci">void addDocumento(std::string nombreFich)</div><div class="ttdoc">Método para añadir un nuevo documento al Gestor de Documentos.</div><div class="ttdef"><b>Definition:</b> <a href="_gestor_textos_8cpp_source.html#l00079">GestorTextos.cpp:79</a></div></div>
+<div class="ttc" id="_gestor_textos_8h_html"><div class="ttname"><a href="_gestor_textos_8h.html">GestorTextos.h</a></div><div class="ttdoc">Fichero para almacenar la cabecera de la Gestor de Textos.</div></div>
+<div class="ttc" id="class_gestor_textos_html_aaea086642de5157a67706ba68ba93ed3"><div class="ttname"><a href="class_gestor_textos.html#aaea086642de5157a67706ba68ba93ed3">GestorTextos::_diccionario</a></div><div class="ttdeci">Diccionario _diccionario</div><div class="ttdoc">Diccionario que utilizará el gestor de documentos.</div><div class="ttdef"><b>Definition:</b> <a href="_gestor_textos_8h_source.html#l00038">GestorTextos.h:38</a></div></div>
+<div class="ttc" id="_palabra_8h_html"><div class="ttname"><a href="_palabra_8h.html">Palabra.h</a></div><div class="ttdoc">Fichero para almacenar la cabecera de la Palabra.</div></div>
+<div class="ttc" id="_v_dinamico_8h_html"><div class="ttname"><a href="_v_dinamico_8h.html">VDinamico.h</a></div><div class="ttdoc">Fichero que almacenará la clase del vector dinámico.</div></div>
+<div class="ttc" id="class_v_dinamico_html"><div class="ttname"><a href="class_v_dinamico.html">VDinamico&lt; Documento &gt;</a></div></div>
+<div class="ttc" id="class_gestor_textos_html_a5ce8bbbcd3828b017cf2c82b38ac2d67"><div class="ttname"><a href="class_gestor_textos.html#a5ce8bbbcd3828b017cf2c82b38ac2d67">GestorTextos::~GestorTextos</a></div><div class="ttdeci">virtual ~GestorTextos()</div><div class="ttdoc">Destructor de la clase GestorTextos.</div><div class="ttdef"><b>Definition:</b> <a href="_gestor_textos_8cpp_source.html#l00049">GestorTextos.cpp:49</a></div></div>
+<div class="ttc" id="class_gestor_textos_html_ab4dec0e5e337ed91fcef6ab49b12925a"><div class="ttname"><a href="class_gestor_textos.html#ab4dec0e5e337ed91fcef6ab49b12925a">GestorTextos::getDocumentos</a></div><div class="ttdeci">VDinamico&lt; Documento &gt; getDocumentos()</div><div class="ttdoc">Método para obtener los documentos que está Gestionando el gestor.</div><div class="ttdef"><b>Definition:</b> <a href="_gestor_textos_8cpp_source.html#l00068">GestorTextos.cpp:68</a></div></div>
+<div class="ttc" id="class_gestor_textos_html"><div class="ttname"><a href="class_gestor_textos.html">GestorTextos</a></div><div class="ttdoc">Clase que representa la Gestión de diferentes Documentos.</div><div class="ttdef"><b>Definition:</b> <a href="_gestor_textos_8h_source.html#l00024">GestorTextos.h:24</a></div></div>
+<div class="ttc" id="class_v_dinamico_html_a58b18e92c74d1b48b1ff8b3c6caf2fb4"><div class="ttname"><a href="class_v_dinamico.html#a58b18e92c74d1b48b1ff8b3c6caf2fb4">VDinamico::insertar</a></div><div class="ttdeci">void insertar(const T &amp;dato, unsigned long int pos=UINT_MAX)</div><div class="ttdoc">Método para insertar elementos en el vector dinámico.</div><div class="ttdef"><b>Definition:</b> <a href="_v_dinamico_8h_source.html#l00180">VDinamico.h:180</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="_gestor_textos_8cpp.html">GestorTextos.cpp</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

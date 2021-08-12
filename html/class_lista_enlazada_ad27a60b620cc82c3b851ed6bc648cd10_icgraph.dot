@@ -1,0 +1,12 @@
+digraph "ListaEnlazada::insertaOrdenado"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node29 [label="ListaEnlazada::insertaOrdenado",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="Documento::addInexistente",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_documento.html#ae0b94f747e84486228de49c292154a79",tooltip=" "];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="Documento::chequearTexto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_documento.html#a961a2128c38cd2910b92f6e7d81cb810",tooltip=" "];
+}

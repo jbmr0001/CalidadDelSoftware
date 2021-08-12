@@ -1,0 +1,19 @@
+digraph "VDinamico::tam"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node44 [label="VDinamico::tam",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="Diccionario::mostrarDiccionario",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diccionario.html#a2585e7a9e411ccb188a9d11cefc5ae3f",tooltip=" "];
+  Node44 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="Diccionario::leerDiccionario",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_diccionario.html#a088040a7ba4d92a3682703d10ceb44f1",tooltip=" "];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="Documento::chequearTexto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_documento.html#a961a2128c38cd2910b92f6e7d81cb810",tooltip=" "];
+  Node44 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="Palabra::anagrama",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_palabra.html#a9624996a59bcd4faa131be93b8a6d35c",tooltip=" "];
+  Node44 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="Palabra::limpiar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_palabra.html#a12f35587a8e7584cec2b14cbbe31a081",tooltip=" "];
+  Node49 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

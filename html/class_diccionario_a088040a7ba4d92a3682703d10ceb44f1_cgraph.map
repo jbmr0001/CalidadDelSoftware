@@ -1,0 +1,6 @@
+<map id="Diccionario::leerDiccionario" name="Diccionario::leerDiccionario">
+<area shape="rect" id="node1" title="Método para leer el diccionario." alt="" coords="5,56,184,83"/>
+<area shape="rect" id="node2" href="$class_diccionario.html#a30e2f2219e94ee320614a4de5b289527" title="Método para obtener el nombre del Diccionario." alt="" coords="232,5,415,32"/>
+<area shape="rect" id="node3" href="$class_v_dinamico.html#a58b18e92c74d1b48b1ff8b3c6caf2fb4" title="Método para insertar elementos en el vector dinámico." alt="" coords="255,56,391,83"/>
+<area shape="rect" id="node4" href="$class_v_dinamico.html#a28d914c1ea488979d68d9d78c5260e67" title="Método para obtener el tamaño del vector dinámico." alt="" coords="266,107,381,133"/>
+</map>

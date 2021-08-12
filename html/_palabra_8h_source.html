@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Práctica 4: Fichero Fuente Palabra.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+  $(document).ready(initResizable);
+/* @license-end */</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Práctica 4
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('_palabra_8h_source.html','');});
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Palabra.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_palabra_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * To change this license header, choose License Headers in Project Properties.</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * To change this template file, choose Tools | Templates</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * and open the template in the editor.</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifndef PALABRA_H</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#define PALABRA_H</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_v_dinamico_8h.html">VDinamico.h</a>&quot;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_palabra.html">   25</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_palabra.html">Palabra</a> {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_palabra.html#a8e74f02e148cdcb5bb91bc2ae193183e">Palabra</a>();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_palabra.html#a8e74f02e148cdcb5bb91bc2ae193183e">Palabra</a>(<span class="keyword">const</span> std::string &amp;unaPalabra);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="class_palabra.html#a8e74f02e148cdcb5bb91bc2ae193183e">Palabra</a>(<span class="keyword">const</span> <a class="code" href="class_palabra.html">Palabra</a>&amp; orig);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="class_palabra.html#a0a7d4416bb093bf5a85a1bf88b56245c">~Palabra</a>();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="class_palabra.html">Palabra</a> <a class="code" href="class_palabra.html#a1ac2bdf683c6d2ca352e49b56600a04f">reves</a>();</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_palabra.html#a1ac2bdf683c6d2ca352e49b56600a04f">reves</a>(std::string pal);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#a9624996a59bcd4faa131be93b8a6d35c">anagrama</a>(<a class="code" href="class_palabra.html">Palabra</a> pal);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#a9f1cabc568de7ddcc82ff4fc3c4799e9">palindromo</a>(<a class="code" href="class_palabra.html">Palabra</a> pal);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="class_v_dinamico.html">VDinamico&lt;Palabra&gt;</a> <a class="code" href="class_palabra.html#ae01250f9088dde49b3b30abf88af2ad2">getCombinaciones</a>();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_palabra.html#a12f35587a8e7584cec2b14cbbe31a081">limpiar</a>();</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_palabra.html#ae2ea67b6f0708a3831ad7a1c6e30313b">convertirPrimeraLetraMinuscula</a>();</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#ab11d019e5dc55ffde59830b663223f77">primeraLetraEsMayus</a>();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_palabra.html#a4d7db37e16a2fa3dc115e69c5efc7937">setPalabra</a>(<span class="keyword">const</span> std::string &amp;unaPalabra);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    std::string <a class="code" href="class_palabra.html#a1da80a2b83cb1f6052698ae2689debb4">getPalabra</a>();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#ac116377e19dd4ef0084eba891dc4a020">operator&lt;</a>(<span class="keyword">const</span> <a class="code" href="class_palabra.html">Palabra</a>&amp; pal) <span class="keyword">const</span>;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#a45e03c93d5e0fdd9b68a16ce449bd3ea">operator&gt;</a>(<span class="keyword">const</span> <a class="code" href="class_palabra.html">Palabra</a>&amp; pal) <span class="keyword">const</span>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#ad71b0e528068e3c42d88500ebe7a1e97">operator==</a>(<span class="keyword">const</span> <a class="code" href="class_palabra.html">Palabra</a>&amp; pal) <span class="keyword">const</span>;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#aab7cc772d42f568e2aadb2cdcc6890c5">operator!=</a>(<span class="keyword">const</span> <a class="code" href="class_palabra.html">Palabra</a>&amp; pal) <span class="keyword">const</span>;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#a21b1f419aa4c9afea912deefe25bd6f3">operator&lt;=</a>(<span class="keyword">const</span> <a class="code" href="class_palabra.html">Palabra</a>&amp; pal) <span class="keyword">const</span>;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_palabra.html#ac079929e7b115f8bc3bb22de0e2c9a8a">operator&gt;=</a>(<span class="keyword">const</span> <a class="code" href="class_palabra.html">Palabra</a>&amp; pal) <span class="keyword">const</span>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_palabra.html#a9078c96755cd659c07193394bd5f5e34">   53</a></span>&#160;    std::string <a class="code" href="class_palabra.html#a9078c96755cd659c07193394bd5f5e34">_palabra</a>;       </div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;};</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* PALABRA_H */</span><span class="preprocessor"></span></div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div><div class="ttc" id="class_palabra_html_a1da80a2b83cb1f6052698ae2689debb4"><div class="ttname"><a href="class_palabra.html#a1da80a2b83cb1f6052698ae2689debb4">Palabra::getPalabra</a></div><div class="ttdeci">std::string getPalabra()</div><div class="ttdoc">Función para obtener el contenido de la palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00065">Palabra.cpp:65</a></div></div>
+<div class="ttc" id="class_palabra_html_ab11d019e5dc55ffde59830b663223f77"><div class="ttname"><a href="class_palabra.html#ab11d019e5dc55ffde59830b663223f77">Palabra::primeraLetraEsMayus</a></div><div class="ttdeci">bool primeraLetraEsMayus()</div><div class="ttdoc">Método para comprobar si la primera letra es mayúscula.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00283">Palabra.cpp:283</a></div></div>
+<div class="ttc" id="class_palabra_html_a45e03c93d5e0fdd9b68a16ce449bd3ea"><div class="ttname"><a href="class_palabra.html#a45e03c93d5e0fdd9b68a16ce449bd3ea">Palabra::operator&gt;</a></div><div class="ttdeci">bool operator&gt;(const Palabra &amp;pal) const</div><div class="ttdoc">Operador &gt; de la clase Palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00095">Palabra.cpp:95</a></div></div>
+<div class="ttc" id="class_palabra_html_a9624996a59bcd4faa131be93b8a6d35c"><div class="ttname"><a href="class_palabra.html#a9624996a59bcd4faa131be93b8a6d35c">Palabra::anagrama</a></div><div class="ttdeci">bool anagrama(Palabra pal)</div><div class="ttdoc">Método que devuelve si dos palabras son anagramas.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00214">Palabra.cpp:214</a></div></div>
+<div class="ttc" id="class_palabra_html_ae01250f9088dde49b3b30abf88af2ad2"><div class="ttname"><a href="class_palabra.html#ae01250f9088dde49b3b30abf88af2ad2">Palabra::getCombinaciones</a></div><div class="ttdeci">VDinamico&lt; Palabra &gt; getCombinaciones()</div><div class="ttdoc">Método para calcular todas las combinaciones con las letras de una palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00196">Palabra.cpp:196</a></div></div>
+<div class="ttc" id="class_palabra_html_aab7cc772d42f568e2aadb2cdcc6890c5"><div class="ttname"><a href="class_palabra.html#aab7cc772d42f568e2aadb2cdcc6890c5">Palabra::operator!=</a></div><div class="ttdeci">bool operator!=(const Palabra &amp;pal) const</div><div class="ttdoc">Operador != de la clase Palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00115">Palabra.cpp:115</a></div></div>
+<div class="ttc" id="class_palabra_html_a9f1cabc568de7ddcc82ff4fc3c4799e9"><div class="ttname"><a href="class_palabra.html#a9f1cabc568de7ddcc82ff4fc3c4799e9">Palabra::palindromo</a></div><div class="ttdeci">bool palindromo(Palabra pal)</div><div class="ttdoc">Método para saber si la palabra es palíndromo.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00181">Palabra.cpp:181</a></div></div>
+<div class="ttc" id="_v_dinamico_8h_html"><div class="ttname"><a href="_v_dinamico_8h.html">VDinamico.h</a></div><div class="ttdoc">Fichero que almacenará la clase del vector dinámico.</div></div>
+<div class="ttc" id="class_palabra_html_ae2ea67b6f0708a3831ad7a1c6e30313b"><div class="ttname"><a href="class_palabra.html#ae2ea67b6f0708a3831ad7a1c6e30313b">Palabra::convertirPrimeraLetraMinuscula</a></div><div class="ttdeci">void convertirPrimeraLetraMinuscula()</div><div class="ttdoc">Método para convertir en minúscula la primera letra de la palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00261">Palabra.cpp:261</a></div></div>
+<div class="ttc" id="class_v_dinamico_html"><div class="ttname"><a href="class_v_dinamico.html">VDinamico&lt; Palabra &gt;</a></div></div>
+<div class="ttc" id="class_palabra_html_a1ac2bdf683c6d2ca352e49b56600a04f"><div class="ttname"><a href="class_palabra.html#a1ac2bdf683c6d2ca352e49b56600a04f">Palabra::reves</a></div><div class="ttdeci">Palabra reves()</div><div class="ttdoc">Método para poner al revés la palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00145">Palabra.cpp:145</a></div></div>
+<div class="ttc" id="class_palabra_html_a12f35587a8e7584cec2b14cbbe31a081"><div class="ttname"><a href="class_palabra.html#a12f35587a8e7584cec2b14cbbe31a081">Palabra::limpiar</a></div><div class="ttdeci">void limpiar()</div><div class="ttdoc">Método para quitar los símbolos no alfabéticos de una palabras.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00233">Palabra.cpp:233</a></div></div>
+<div class="ttc" id="class_palabra_html_a0a7d4416bb093bf5a85a1bf88b56245c"><div class="ttname"><a href="class_palabra.html#a0a7d4416bb093bf5a85a1bf88b56245c">Palabra::~Palabra</a></div><div class="ttdeci">~Palabra()</div><div class="ttdoc">Desctructor de la clase Palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00055">Palabra.cpp:55</a></div></div>
+<div class="ttc" id="class_palabra_html_ac079929e7b115f8bc3bb22de0e2c9a8a"><div class="ttname"><a href="class_palabra.html#ac079929e7b115f8bc3bb22de0e2c9a8a">Palabra::operator&gt;=</a></div><div class="ttdeci">bool operator&gt;=(const Palabra &amp;pal) const</div><div class="ttdoc">Operador &gt;= de la clase Palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00135">Palabra.cpp:135</a></div></div>
+<div class="ttc" id="class_palabra_html_ac116377e19dd4ef0084eba891dc4a020"><div class="ttname"><a href="class_palabra.html#ac116377e19dd4ef0084eba891dc4a020">Palabra::operator&lt;</a></div><div class="ttdeci">bool operator&lt;(const Palabra &amp;pal) const</div><div class="ttdoc">Operador &lt; de la clase Palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00085">Palabra.cpp:85</a></div></div>
+<div class="ttc" id="class_palabra_html_a9078c96755cd659c07193394bd5f5e34"><div class="ttname"><a href="class_palabra.html#a9078c96755cd659c07193394bd5f5e34">Palabra::_palabra</a></div><div class="ttdeci">std::string _palabra</div><div class="ttdoc">String con el contenido de la palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8h_source.html#l00053">Palabra.h:53</a></div></div>
+<div class="ttc" id="class_palabra_html_a4d7db37e16a2fa3dc115e69c5efc7937"><div class="ttname"><a href="class_palabra.html#a4d7db37e16a2fa3dc115e69c5efc7937">Palabra::setPalabra</a></div><div class="ttdeci">void setPalabra(const std::string &amp;unaPalabra)</div><div class="ttdoc">Función para establecer el contenido de la palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00074">Palabra.cpp:74</a></div></div>
+<div class="ttc" id="class_palabra_html_a8e74f02e148cdcb5bb91bc2ae193183e"><div class="ttname"><a href="class_palabra.html#a8e74f02e148cdcb5bb91bc2ae193183e">Palabra::Palabra</a></div><div class="ttdeci">Palabra()</div><div class="ttdoc">Constructor por defecto de la clase Palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00030">Palabra.cpp:30</a></div></div>
+<div class="ttc" id="class_palabra_html_ad71b0e528068e3c42d88500ebe7a1e97"><div class="ttname"><a href="class_palabra.html#ad71b0e528068e3c42d88500ebe7a1e97">Palabra::operator==</a></div><div class="ttdeci">bool operator==(const Palabra &amp;pal) const</div><div class="ttdoc">Operador == de la clase Palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00105">Palabra.cpp:105</a></div></div>
+<div class="ttc" id="class_palabra_html"><div class="ttname"><a href="class_palabra.html">Palabra</a></div><div class="ttdoc">Clase que representa una palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8h_source.html#l00025">Palabra.h:25</a></div></div>
+<div class="ttc" id="class_palabra_html_a21b1f419aa4c9afea912deefe25bd6f3"><div class="ttname"><a href="class_palabra.html#a21b1f419aa4c9afea912deefe25bd6f3">Palabra::operator&lt;=</a></div><div class="ttdeci">bool operator&lt;=(const Palabra &amp;pal) const</div><div class="ttdoc">Operador &lt;= de la clase Palabra.</div><div class="ttdef"><b>Definition:</b> <a href="_palabra_8cpp_source.html#l00125">Palabra.cpp:125</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="_palabra_8h.html">Palabra.h</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
+  </ul>
+</div>
+</body>
+</html>

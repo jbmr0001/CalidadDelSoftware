@@ -1,0 +1,6 @@
+<map id="Palabra::palindromo" name="Palabra::palindromo">
+<area shape="rect" id="node1" title="Método para saber si la palabra es palíndromo." alt="" coords="5,31,143,57"/>
+<area shape="rect" id="node2" href="$class_palabra.html#a1da80a2b83cb1f6052698ae2689debb4" title="Función para obtener el contenido de la palabra." alt="" coords="191,5,327,32"/>
+<area shape="rect" id="node3" href="$class_palabra.html#a1ac2bdf683c6d2ca352e49b56600a04f" title="Método para poner al revés la palabra." alt="" coords="207,56,311,83"/>
+<area shape="rect" id="node4" href="$class_palabra.html#a4d7db37e16a2fa3dc115e69c5efc7937" title="Función para establecer el contenido de la palabra." alt="" coords="375,56,511,83"/>
+</map>

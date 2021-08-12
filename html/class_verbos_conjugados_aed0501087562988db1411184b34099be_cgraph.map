@@ -1,0 +1,5 @@
+<map id="VerbosConjugados::leerVerbos" name="VerbosConjugados::leerVerbos">
+<area shape="rect" id="node1" title="Método para leer el fichero de verbos e insertarlo en el AVL." alt="" coords="5,31,207,57"/>
+<area shape="rect" id="node2" href="$class_verbos_conjugados.html#a5713ac4a1b5ce56bb1a86e5598553080" title="Método para obtener el nombre del fichero de verbos conjugados." alt="" coords="255,5,481,32"/>
+<area shape="rect" id="node3" href="$class_a_v_l.html#aaa17cef0b40f683b5caaaf7e95a118d7" title="Método público para insertar un dato en el Árbol." alt="" coords="319,56,417,83"/>
+</map>

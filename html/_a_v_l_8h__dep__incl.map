@@ -1,0 +1,12 @@
+<map id="AVL.h" name="AVL.h">
+<area shape="rect" id="node1" title="Fichero que almacenará la clase del árbol AVL. Created on 4 de noviembre de 2020, 17:38." alt="" coords="497,5,555,32"/>
+<area shape="rect" id="node2" href="$_verbos_conjugados_8h.html" title="Fichero para almacenar la cabecera de la clase VerbosConjugados." alt="" coords="339,80,481,107"/>
+<area shape="rect" id="node9" href="$main_8cpp.html" title="Fichero para almacenar el hilo principal." alt="" coords="278,379,353,405"/>
+<area shape="rect" id="node3" href="$_diccionario_8h.html" title="Fichero para almacenar la cabecera de la clase Diccionario." alt="" coords="79,155,176,181"/>
+<area shape="rect" id="node6" href="$_documento_8cpp.html" title="Fichero para almacenar la implementación de la clase Documento." alt="" coords="259,304,372,331"/>
+<area shape="rect" id="node10" href="$_verbos_conjugados_8cpp.html" title="Fichero para almacenar la implementación de la clase Verbos conjugados." alt="" coords="448,155,604,181"/>
+<area shape="rect" id="node4" href="$_diccionario_8cpp.html" title="Fichero para almacenar la implementacion de Diccionario." alt="" coords="72,229,183,256"/>
+<area shape="rect" id="node5" href="$_documento_8h.html" title="Fichero para almacenar la cabecera de la clase Documento." alt="" coords="207,229,306,256"/>
+<area shape="rect" id="node7" href="$_gestor_textos_8h.html" title="Fichero para almacenar la cabecera de la Gestor de Textos." alt="" coords="21,304,132,331"/>
+<area shape="rect" id="node8" href="$_gestor_textos_8cpp.html" title="Fichero para almacenar la implementación del Gestor de Textos." alt="" coords="14,379,139,405"/>
+</map>

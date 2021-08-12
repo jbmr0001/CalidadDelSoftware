@@ -1,0 +1,5 @@
+<map id="Palabra::getCombinaciones" name="Palabra::getCombinaciones">
+<area shape="rect" id="node1" title="Método para calcular todas las combinaciones con las letras de una palabra." alt="" coords="5,31,187,57"/>
+<area shape="rect" id="node2" href="$class_v_dinamico.html#a58b18e92c74d1b48b1ff8b3c6caf2fb4" title="Método para insertar elementos en el vector dinámico." alt="" coords="235,5,371,32"/>
+<area shape="rect" id="node3" href="$class_v_dinamico.html#a54a20403d34e84dd29e48be289c4e31c" title="Método para ordenar el vector dinámico." alt="" coords="235,56,371,83"/>
+</map>

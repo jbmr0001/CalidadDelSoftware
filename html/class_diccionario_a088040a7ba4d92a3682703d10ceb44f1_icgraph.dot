@@ -1,0 +1,10 @@
+digraph "Diccionario::leerDiccionario"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node25 [label="Diccionario::leerDiccionario",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="Documento::chequearTexto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_documento.html#a961a2128c38cd2910b92f6e7d81cb810",tooltip=" "];
+}

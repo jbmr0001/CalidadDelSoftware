@@ -1,0 +1,8 @@
+<map id="ListaEnlazada.h" name="ListaEnlazada.h">
+<area shape="rect" id="node1" title="Fichero para almacenar la Lista enlazada." alt="" coords="148,5,263,32"/>
+<area shape="rect" id="node2" href="$_documento_8h.html" title="Fichero para almacenar la cabecera de la clase Documento." alt="" coords="156,80,255,107"/>
+<area shape="rect" id="node5" href="$_gestor_textos_8cpp.html" title="Fichero para almacenar la implementación del Gestor de Textos." alt="" coords="304,229,429,256"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="Fichero para almacenar el hilo principal." alt="" coords="5,229,80,256"/>
+<area shape="rect" id="node3" href="$_documento_8cpp.html" title="Fichero para almacenar la implementación de la clase Documento." alt="" coords="81,155,194,181"/>
+<area shape="rect" id="node4" href="$_gestor_textos_8h.html" title="Fichero para almacenar la cabecera de la Gestor de Textos." alt="" coords="218,155,329,181"/>
+</map>

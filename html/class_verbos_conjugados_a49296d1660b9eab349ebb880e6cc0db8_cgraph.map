@@ -1,0 +1,5 @@
+<map id="VerbosConjugados::mostrarAltura" name="VerbosConjugados::mostrarAltura">
+<area shape="rect" id="node1" title="Función para mostrar la altura y número de elementos del AVL." alt="" coords="5,23,188,65"/>
+<area shape="rect" id="node2" href="$class_a_v_l.html#a2178d309b9e1ec87bb3b4bea36c50aa1" title="Método para calcular la áltura de un árbol." alt="" coords="264,5,351,32"/>
+<area shape="rect" id="node3" href="$class_a_v_l.html#aa5d8b06d362c9dbe985d106ad0860e6a" title="Método público para obtener el número de elementos que hay en el árbol." alt="" coords="236,56,379,83"/>
+</map>

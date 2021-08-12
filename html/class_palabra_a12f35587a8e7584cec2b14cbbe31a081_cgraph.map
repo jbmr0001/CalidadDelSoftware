@@ -1,0 +1,5 @@
+<map id="Palabra::limpiar" name="Palabra::limpiar">
+<area shape="rect" id="node1" title="Método para quitar los símbolos no alfabéticos de una palabras." alt="" coords="5,31,117,57"/>
+<area shape="rect" id="node2" href="$class_v_dinamico.html#a58b18e92c74d1b48b1ff8b3c6caf2fb4" title="Método para insertar elementos en el vector dinámico." alt="" coords="165,5,301,32"/>
+<area shape="rect" id="node3" href="$class_v_dinamico.html#a28d914c1ea488979d68d9d78c5260e67" title="Método para obtener el tamaño del vector dinámico." alt="" coords="176,56,291,83"/>
+</map>

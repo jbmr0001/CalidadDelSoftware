@@ -1,0 +1,9 @@
+<map id="Diccionario.h" name="Diccionario.h">
+<area shape="rect" id="node1" title="Fichero para almacenar la cabecera de la clase Diccionario." alt="" coords="152,5,249,32"/>
+<area shape="rect" id="node2" href="$_diccionario_8cpp.html" title="Fichero para almacenar la implementacion de Diccionario." alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node3" href="$_documento_8h.html" title="Fichero para almacenar la cabecera de la clase Documento." alt="" coords="291,80,390,107"/>
+<area shape="rect" id="node5" href="$_gestor_textos_8h.html" title="Fichero para almacenar la cabecera de la Gestor de Textos." alt="" coords="192,155,303,181"/>
+<area shape="rect" id="node6" href="$_gestor_textos_8cpp.html" title="Fichero para almacenar la implementación del Gestor de Textos." alt="" coords="185,229,310,256"/>
+<area shape="rect" id="node4" href="$_documento_8cpp.html" title="Fichero para almacenar la implementación de la clase Documento." alt="" coords="429,155,543,181"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="Fichero para almacenar el hilo principal." alt="" coords="343,229,418,256"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="Documento::chequearTexto" name="Documento::chequearTexto">
+<area shape="rect" id="node1" title="Método para chequear el texto del Documento." alt="" coords="5,401,187,428"/>
+<area shape="rect" id="node2" href="$class_documento.html#ae0b94f747e84486228de49c292154a79" title="Método para insertar una Palabra en la lista de palabras inexistentes." alt="" coords="246,31,426,57"/>
+<area shape="rect" id="node4" href="$class_documento.html#a5762878977cf095e115dc2fd1bdb0ed8" title="Método para borrar los nombres propios y las palabras que cambiando la primera letra minúsculas se en..." alt="" coords="245,209,427,250"/>
+<area shape="rect" id="node6" href="$class_verbos_conjugados.html#ab674c8bf269fbe6a35b0920c312910c1" title="Función para buscaar una palabra en los verbos conjugados." alt="" coords="499,56,678,83"/>
+<area shape="rect" id="node8" href="$class_diccionario.html#a782b80d7d197854ad2b89862625c5192" title="Función que realiza una búsqueda binaria para encontrar una palabra." alt="" coords="489,275,688,301"/>
+<area shape="rect" id="node11" href="$class_diccionario.html#a25d450331fdf11e2bd5dd7be0f3c87c1" title="Método para obtener los verbos conjugados del Diccionario." alt="" coords="512,325,665,352"/>
+<area shape="rect" id="node13" href="$class_lista_enlazada.html#a100269e09df229d5b99bf961cd9d2900" title=" " alt="" coords="518,376,659,403"/>
+<area shape="rect" id="node14" href="$class_lista_enlazada.html#aec4c81d0874fde1abedca8fc12a3d30c" title="Función para borrar los elementos repetidos de la Lista Enlazada." alt="" coords="235,427,437,453"/>
+<area shape="rect" id="node15" href="$class_documento.html#a1c5fb545871613396cf36e699c5aae0d" title="Método para obtener el nombre del documento." alt="" coords="244,477,428,504"/>
+<area shape="rect" id="node16" href="$class_diccionario.html#a088040a7ba4d92a3682703d10ceb44f1" title="Método para leer el diccionario." alt="" coords="247,528,425,555"/>
+<area shape="rect" id="node20" href="$class_palabra.html#a12f35587a8e7584cec2b14cbbe31a081" title="Método para quitar los símbolos no alfabéticos de una palabras." alt="" coords="280,579,392,605"/>
+<area shape="rect" id="node21" href="$class_verbos_conjugados.html#a49296d1660b9eab349ebb880e6cc0db8" title="Función para mostrar la altura y número de elementos del AVL." alt="" coords="245,630,427,671"/>
+<area shape="rect" id="node24" href="$class_diccionario.html#a290831e96bfd006e56beaa8cde0ff1f6" title="Método para modificar el nombre del fichero." alt="" coords="245,696,427,723"/>
+<area shape="rect" id="node3" href="$class_lista_enlazada.html#ad27a60b620cc82c3b851ed6bc648cd10" title="Función de inserción ordenada en la Lista Enlazada." alt="" coords="485,5,692,32"/>
+<area shape="rect" id="node5" href="$class_lista_enlazada.html#a2c53b6e9d94e73adb0bf009eab162418" title="Función para borrar una posición iterada." alt="" coords="516,107,661,133"/>
+<area shape="rect" id="node10" href="$class_palabra.html#ae2ea67b6f0708a3831ad7a1c6e30313b" title="Método para convertir en minúscula la primera letra de la palabra." alt="" coords="505,158,672,199"/>
+<area shape="rect" id="node12" href="$class_lista_enlazada.html#a810278d01c7a6158b9654d4170f0e665" title="Función para iterar la cabecera de la lista." alt="" coords="511,224,666,251"/>
+<area shape="rect" id="node7" href="$class_a_v_l.html#ab542cf31324088c0e06c4f5623874023" title="Método para realizar una búsqueda Iterativa sobre un dato." alt="" coords="775,56,873,83"/>
+<area shape="rect" id="node9" href="$class_v_dinamico.html#a6055c9b6d783374c0a8bc15d969cd1e2" title="Método para realizar una búsqueda binaria en el vector dinámico." alt="" coords="740,275,908,301"/>
+<area shape="rect" id="node17" href="$class_diccionario.html#a30e2f2219e94ee320614a4de5b289527" title="Método para obtener el nombre del Diccionario." alt="" coords="497,477,680,504"/>
+<area shape="rect" id="node18" href="$class_v_dinamico.html#a58b18e92c74d1b48b1ff8b3c6caf2fb4" title="Método para insertar elementos en el vector dinámico." alt="" coords="521,579,657,605"/>
+<area shape="rect" id="node19" href="$class_v_dinamico.html#a28d914c1ea488979d68d9d78c5260e67" title="Método para obtener el tamaño del vector dinámico." alt="" coords="531,528,646,555"/>
+<area shape="rect" id="node22" href="$class_a_v_l.html#a2178d309b9e1ec87bb3b4bea36c50aa1" title="Método para calcular la áltura de un árbol." alt="" coords="545,684,632,711"/>
+<area shape="rect" id="node23" href="$class_a_v_l.html#aa5d8b06d362c9dbe985d106ad0860e6a" title="Método público para obtener el número de elementos que hay en el árbol." alt="" coords="517,633,660,660"/>
+</map>

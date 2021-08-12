@@ -1,0 +1,9 @@
+<map id="Diccionario" name="Diccionario">
+<area shape="rect" id="node1" title="Clase que representa un diccionario." alt="" coords="105,467,191,493"/>
+<area shape="rect" id="node2" href="$class_verbos_conjugados.html" title="Clase que representa una clase con todos los verbos conjugados existentes." alt="" coords="83,377,213,404"/>
+<area shape="rect" id="node3" href="$class_a_v_l.html" title=" " alt="" coords="171,288,285,315"/>
+<area shape="rect" id="node4" href="$class_nodo2.html" title=" " alt="" coords="210,185,337,212"/>
+<area shape="rect" id="node5" href="$class_palabra.html" title="Clase que representa una palabra." alt="" coords="240,95,307,121"/>
+<area shape="rect" id="node7" href="$class_v_dinamico.html" title=" " alt="" coords="330,237,483,264"/>
+<area shape="rect" id="node6" title=" " alt="" coords="78,5,133,32"/>
+</map>

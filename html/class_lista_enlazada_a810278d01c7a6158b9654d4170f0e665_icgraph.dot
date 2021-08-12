@@ -1,0 +1,14 @@
+digraph "ListaEnlazada::iterador"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node33 [label="ListaEnlazada::iterador",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="Documento::MostrarInexistentes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_documento.html#afcc5fb3d8b4c9b6ee25c5f45065ab70f",tooltip=" "];
+  Node33 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="Documento::borrarNombres\lPropios",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_documento.html#a5762878977cf095e115dc2fd1bdb0ed8",tooltip=" "];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="Documento::chequearTexto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_documento.html#a961a2128c38cd2910b92f6e7d81cb810",tooltip=" "];
+}

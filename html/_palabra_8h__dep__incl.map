@@ -1,0 +1,13 @@
+<map id="Palabra.h" name="Palabra.h">
+<area shape="rect" id="node1" title="Fichero para almacenar la cabecera de la Palabra." alt="" coords="291,5,368,32"/>
+<area shape="rect" id="node2" href="$_diccionario_8h.html" title="Fichero para almacenar la cabecera de la clase Diccionario." alt="" coords="194,155,291,181"/>
+<area shape="rect" id="node3" href="$_diccionario_8cpp.html" title="Fichero para almacenar la implementacion de Diccionario." alt="" coords="43,229,154,256"/>
+<area shape="rect" id="node4" href="$_documento_8h.html" title="Fichero para almacenar la cabecera de la clase Documento." alt="" coords="280,229,379,256"/>
+<area shape="rect" id="node5" href="$_documento_8cpp.html" title="Fichero para almacenar la implementación de la clase Documento." alt="" coords="469,304,582,331"/>
+<area shape="rect" id="node7" href="$_gestor_textos_8cpp.html" title="Fichero para almacenar la implementación del Gestor de Textos." alt="" coords="127,379,252,405"/>
+<area shape="rect" id="node9" href="$_verbos_conjugados_8h.html" title="Fichero para almacenar la cabecera de la clase VerbosConjugados." alt="" coords="367,80,510,107"/>
+<area shape="rect" id="node11" href="$_palabra_8cpp.html" title="Fichero para almacenar la implementación de Palabra." alt="" coords="751,80,841,107"/>
+<area shape="rect" id="node6" href="$_gestor_textos_8h.html" title="Fichero para almacenar la cabecera de la Gestor de Textos." alt="" coords="181,304,291,331"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="Fichero para almacenar el hilo principal." alt="" coords="343,379,417,405"/>
+<area shape="rect" id="node10" href="$_verbos_conjugados_8cpp.html" title="Fichero para almacenar la implementación de la clase Verbos conjugados." alt="" coords="519,155,675,181"/>
+</map>

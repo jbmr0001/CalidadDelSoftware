@@ -1,0 +1,6 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Hilo principal del programa." alt="" coords="5,31,56,57"/>
+<area shape="rect" id="node2" href="$class_gestor_textos.html#a40aecde4a3b251853d278b67301fd363" title="Método para añadir un nuevo documento al Gestor de Documentos." alt="" coords="106,5,301,32"/>
+<area shape="rect" id="node4" href="$class_gestor_textos.html#ab4dec0e5e337ed91fcef6ab49b12925a" title="Método para obtener los documentos que está Gestionando el gestor." alt="" coords="104,56,303,83"/>
+<area shape="rect" id="node3" href="$class_v_dinamico.html#a58b18e92c74d1b48b1ff8b3c6caf2fb4" title="Método para insertar elementos en el vector dinámico." alt="" coords="351,5,487,32"/>
+</map>

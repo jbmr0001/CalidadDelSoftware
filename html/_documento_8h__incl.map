@@ -1,0 +1,13 @@
+<map id="Documento.h" name="Documento.h">
+<area shape="rect" id="node1" title="Fichero para almacenar la cabecera de la clase Documento." alt="" coords="185,5,284,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="146,304,201,331"/>
+<area shape="rect" id="node3" href="$_palabra_8h.html" title="Fichero para almacenar la cabecera de la Palabra." alt="" coords="344,229,421,256"/>
+<area shape="rect" id="node7" href="$_lista_enlazada_8h.html" title="Fichero para almacenar la Lista enlazada." alt="" coords="25,155,140,181"/>
+<area shape="rect" id="node8" href="$_diccionario_8h.html" title="Fichero para almacenar la cabecera de la clase Diccionario." alt="" coords="238,80,335,107"/>
+<area shape="rect" id="node4" href="$_v_dinamico_8h.html" title="Fichero que almacenará la clase del vector dinámico." alt="" coords="380,304,476,331"/>
+<area shape="rect" id="node5" title=" " alt="" coords="351,379,411,405"/>
+<area shape="rect" id="node6" title=" " alt="" coords="436,379,511,405"/>
+<area shape="rect" id="node9" href="$_verbos_conjugados_8h.html" title="Fichero para almacenar la cabecera de la clase VerbosConjugados." alt="" coords="215,155,358,181"/>
+<area shape="rect" id="node10" href="$_a_v_l_8h.html" title="Fichero que almacenará la clase del árbol AVL. Created on 4 de noviembre de 2020, 17:38." alt="" coords="261,229,320,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="255,304,327,331"/>
+</map>

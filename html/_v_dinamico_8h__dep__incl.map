@@ -1,0 +1,14 @@
+<map id="VDinamico.h" name="VDinamico.h">
+<area shape="rect" id="node1" title="Fichero que almacenará la clase del vector dinámico." alt="" coords="323,5,419,32"/>
+<area shape="rect" id="node2" href="$_diccionario_8h.html" title="Fichero para almacenar la cabecera de la clase Diccionario." alt="" coords="295,229,393,256"/>
+<area shape="rect" id="node6" href="$_gestor_textos_8h.html" title="Fichero para almacenar la cabecera de la Gestor de Textos." alt="" coords="231,379,342,405"/>
+<area shape="rect" id="node7" href="$_gestor_textos_8cpp.html" title="Fichero para almacenar la implementación del Gestor de Textos." alt="" coords="131,453,256,480"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="Fichero para almacenar el hilo principal." alt="" coords="488,453,563,480"/>
+<area shape="rect" id="node9" href="$_palabra_8h.html" title="Fichero para almacenar la cabecera de la Palabra." alt="" coords="383,80,460,107"/>
+<area shape="rect" id="node12" href="$_palabra_8cpp.html" title="Fichero para almacenar la implementación de Palabra." alt="" coords="700,155,791,181"/>
+<area shape="rect" id="node3" href="$_diccionario_8cpp.html" title="Fichero para almacenar la implementacion de Diccionario." alt="" coords="145,304,255,331"/>
+<area shape="rect" id="node4" href="$_documento_8h.html" title="Fichero para almacenar la cabecera de la clase Documento." alt="" coords="381,304,480,331"/>
+<area shape="rect" id="node5" href="$_documento_8cpp.html" title="Fichero para almacenar la implementación de la clase Documento." alt="" coords="469,379,582,405"/>
+<area shape="rect" id="node10" href="$_verbos_conjugados_8h.html" title="Fichero para almacenar la cabecera de la clase VerbosConjugados." alt="" coords="533,155,675,181"/>
+<area shape="rect" id="node11" href="$_verbos_conjugados_8cpp.html" title="Fichero para almacenar la implementación de la clase Verbos conjugados." alt="" coords="657,229,813,256"/>
+</map>

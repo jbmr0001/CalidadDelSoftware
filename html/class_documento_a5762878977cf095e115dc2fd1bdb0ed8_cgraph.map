@@ -1,0 +1,12 @@
+<map id="Documento::borrarNombresPropios" name="Documento::borrarNombresPropios">
+<area shape="rect" id="node1" title="Método para borrar los nombres propios y las palabras que cambiando la primera letra minúsculas se en..." alt="" coords="5,158,187,199"/>
+<area shape="rect" id="node2" href="$class_lista_enlazada.html#a2c53b6e9d94e73adb0bf009eab162418" title="Función para borrar una posición iterada." alt="" coords="261,5,407,32"/>
+<area shape="rect" id="node3" href="$class_verbos_conjugados.html#ab674c8bf269fbe6a35b0920c312910c1" title="Función para buscaar una palabra en los verbos conjugados." alt="" coords="245,56,423,83"/>
+<area shape="rect" id="node5" href="$class_diccionario.html#a782b80d7d197854ad2b89862625c5192" title="Función que realiza una búsqueda binaria para encontrar una palabra." alt="" coords="235,107,433,133"/>
+<area shape="rect" id="node7" href="$class_palabra.html#ae2ea67b6f0708a3831ad7a1c6e30313b" title="Método para convertir en minúscula la primera letra de la palabra." alt="" coords="251,158,417,199"/>
+<area shape="rect" id="node8" href="$class_diccionario.html#a25d450331fdf11e2bd5dd7be0f3c87c1" title="Método para obtener los verbos conjugados del Diccionario." alt="" coords="257,224,411,251"/>
+<area shape="rect" id="node9" href="$class_lista_enlazada.html#a810278d01c7a6158b9654d4170f0e665" title="Función para iterar la cabecera de la lista." alt="" coords="257,275,411,301"/>
+<area shape="rect" id="node10" href="$class_lista_enlazada.html#a100269e09df229d5b99bf961cd9d2900" title=" " alt="" coords="263,325,405,352"/>
+<area shape="rect" id="node4" href="$class_a_v_l.html#ab542cf31324088c0e06c4f5623874023" title="Método para realizar una búsqueda Iterativa sobre un dato." alt="" coords="517,56,614,83"/>
+<area shape="rect" id="node6" href="$class_v_dinamico.html#a6055c9b6d783374c0a8bc15d969cd1e2" title="Método para realizar una búsqueda binaria en el vector dinámico." alt="" coords="481,107,649,133"/>
+</map>
